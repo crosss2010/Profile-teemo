@@ -1,0 +1,42 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+     background-color: #e10600;
+     width: 100%;
+     height: 70px;
+     display: flex;
+     justify-content: space-between;
+ }
+ img {
+    width: auto;
+    height: 40px;
+ }
+
+ul {
+     list-style: none;
+ }
+
+.menu li>a {
+     color: rgb(24, 18, 18);
+     text-decoration: none;
+     display: block;
+     margin: 10px;
+ }
+.menu li>a:hover{
+    color: rgb(158, 29, 29);
+    background-color: #eaeaea;
+ }
+.menu>li{
+    float: left;
+    text-align:center
+}
+.menu li>ul {
+    display: none;
+}
+.menu>li:hover>ul {
+    display:block;
+}
