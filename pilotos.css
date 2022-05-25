@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+  .fondo {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .photo-pilot { 
+    width: 500px;
+    height: 450px;
+    margin-top: 20px;
+    object-fit: cover;
+    object-position: 50%;
+    border-radius: 10px;
+   }
+    
+  .ficha-tecnica {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    margin-top: 20px;
+  
+  }
+  .ficha-tecnica-datos {
+    width: 250px;
+    height: 300px;
+    list-style: none;    
+  }
+  .ficha-tecnica-datos > li {
+    margin: 8px;
+    margin-left: 20px;
+    width: auto;
+    font-size: 18px;
+    font-family: f1-regular;
+  }
+  .galery-photo {
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .galery-photo .mini {
+    height: 80px;
+    width: 80px;
+    background-color: blue;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
